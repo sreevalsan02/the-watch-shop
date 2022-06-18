@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: highfield;
+    src: url(fonts/Highfield\ Thin.ttf);
+  }
+.frame-black{
+    background-color:  black;
+    overflow: hidden;
+}
+.frame-white{
+    background-color: #D6D6D6;
+    overflow: hidden;
+}
+
+/* common classes */
+.heading1 {
+    font-family: 'highfield', serif;
+     font-weight: 400;
+     font-size: 90px;
+     color: white;
+}
+.heading2 {
+    font-family: 'highfield', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+
+.text  {
+    font-family:'Poppins', sans-serif ;
+    color: rgb(125, 122, 122);
+}
+
+
+
+/* header section */
+header {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 20px;
+    margin-right: 111px;
+    margin-left: 111px;
+    border-bottom: 1px solid rgb(109, 108, 108);
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+   
+}
+header ul li {
+    padding: 5px;
+    color: white;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover {
+    color: red;
+}
+.header-left {
+    width: 15%;
+  
+    
+}
+.header-mid {
+    width: 70%;
+   
+
+}
+
+.header-right {
+    width: 5%;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    display: flex;
+    height: 300px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+footer img {
+    height: 50px;
+    
+  
+}
+
+.footer-div1 {
+   
+    display: inline-block;
+   margin-top: 70px;
+}
+.footer-div1 h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'highfield', serif;
+}
+footer ul  {
+list-style-type: none;
+}
+footer ul li {
+    padding-top: 20px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    font-family:'Poppins', sans-serif ;
+}
+
+.social1 {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.social1 a{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom:5px ;
+  
+}
+
+.social {
+    display: inline-flex;
+    align-self: flex-end;
+    
+}
